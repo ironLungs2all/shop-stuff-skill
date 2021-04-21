@@ -8,12 +8,12 @@ Example:
 
     Turn Light on
     Turn Light off
-    Turn Switch on
-    Turn switch off
+    Turn Spot on
+    Turn Spot off
     Turn fan on
     Turn fan off
-    Turn bedroom on
-    Turn bedroom off
+    Turn rest on
+    Turn rest off
 """
 
 from os.path import dirname, abspath
@@ -73,7 +73,7 @@ class GPIO_Shop_Stuff_Skill(MycroftSkill):
         self.blink_active = False
         for key in self.switches:
             GPIO.on(self.switches[key]['gpio'], self.on_change)
-        super(GPIO_ControlSkill, self).__init__(name="GPIO_ControlSkill")
+        super(GPIO_Shop_Stuff_Skill, self).__init__(name="GPIO_Shop_Stuff_Skill")
 
     def blink(self):
         """This Will Start the Led blink process
