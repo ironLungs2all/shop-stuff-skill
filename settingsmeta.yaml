@@ -1,7 +1,7 @@
 
 skillMetadata:
   sections:
-    - name: Options << Name of section
+    - name: Options
       fields:
         - name: internal_python_variable_name
           type: text

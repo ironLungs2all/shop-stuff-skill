@@ -1,21 +1,20 @@
-# <img src="https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/robot.svg" card_color="#22A7F0" width="50" height="50" style="vertical-align:bottom"/> Shop Stuff
-Using the gpio and relays differnt shop devices can turn on.
+# <img src="https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/sun.svg" card_color="#22A7F0" width="50" height="50" style="vertical-align:bottom"/> Shop Lights
+Turns on/off shop lights and other things via gpio
 
 ## About
-I could write more here moaybe later
+Using relays I can turn off and off my shop lights
 
 ## Examples
-* "Turn on north"
-* "Turn on fan"
-* "Turn on spot"
-* "Turn on rest"
+* "Turn on North"
+* "Turn on Rest"
+* "Turn off Fan"
+* "Turn off Spot"
 
 ## Credits
-Lungs
+Lungs - I stole this from smolina
 
 ## Category
 **Daily**
 
 ## Tags
-#Stuff on/off
 
