@@ -2,7 +2,7 @@
 Turns on/off shop lights and other things via gpio
 
 ## About
-Using relays I can turn off and off my shop lights
+Using relays I can turn off and off my shop stuff
 
 ## Examples
 * "Turn on North"
