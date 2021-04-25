@@ -5,10 +5,10 @@ skillMetadata:
       fields:
         - name: internal_python_variable_name
           type: text
-          label: Setting Friendly Display Name
+          label: This does nothong yet. Yet
           value: ""
           placeholder: demo prompt in the input box
-    - name: Login << Name of another section
+    - name: Login nothing to "save" here.
       fields:
         - type: label
           label: Just a little bit of extra info for the user to understand following settings
