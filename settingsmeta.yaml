@@ -8,10 +8,10 @@ skillMetadata:
           label: This does nothong yet. Yet
           value: ""
           placeholder: demo prompt in the input box
-    - name: Login nothing to "save" here.
+    - name: nothing to "save" here.
       fields:
         - type: label
-          label: Just a little bit of extra info for the user to understand following settings
+          label: Just a little bit of extra stuff to figure
         - name: username
           type: text
           label: Username
