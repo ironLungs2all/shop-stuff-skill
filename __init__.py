@@ -6,8 +6,8 @@ This allows users to control Relay Switch The Relay Switch is Attached to GPIO1
 Example:
     literal blocks::
 
-    Turn Light on
-    Turn Light off
+    Turn Lights on
+    Turn Lights off
     Turn Spot on
     Turn Spot off
     Turn fan on
@@ -43,7 +43,7 @@ class GPIO_Shop_Stuff_Skill(MycroftSkill):
     """This is the skill for controlling GPIO of the Raspberry Pi"""
 
     switches = {
-        "NORTH": {"gpio":"GPIO1", "dialog":"northblink", "name":"north"},
+        "LIGHTS": {"gpio":"GPIO1", "dialog":"lightsblink", "name":"lights"},
         "REST": {"gpio":"GPIO2", "dialog":"restblink", "name":"rest"},
         "FAN": {"gpio":"GPIO3", "dialog":"fanblink", "name":"fan"},
         "SPOT": {"gpio":"GPIO4", "dialog":"spotlink", "name":"spot"},
