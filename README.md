@@ -5,7 +5,7 @@ Turns on/off shop lights and other things via gpio
 Using relays I can turn off and off my shop stuff
 
 ## Examples
-* "Turn on North"
+* "Turn on Lights"
 * "Turn on Rest"
 * "Turn off Fan"
 * "Turn off Spot"
