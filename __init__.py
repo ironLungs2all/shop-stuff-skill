@@ -39,7 +39,7 @@ import GPIO
 __author__ = 'I stole this from smolino'
 
 
-class GPIO_Shop_Stuff(MycroftSkill):
+class GPIOShopStuff(MycroftSkill):
     """This is the skill for controlling GPIO of the Raspberry Pi"""
 
     switches = {
@@ -73,7 +73,7 @@ class GPIO_Shop_Stuff(MycroftSkill):
         self.blink_active = False
         for key in self.switches:
             GPIO.on(self.switches[key]['gpio'], self.on_change)
-        super(GPIO_Shop_Stuff, self).__init__(name="GPIO_Shop_Stuff")
+        super(GPIOShopStuff, self).__init__(name="GPIOShopStuff")
 
     def blink(self):
         """This Will Start the Led blink process
@@ -172,4 +172,4 @@ class GPIO_Shop_Stuff(MycroftSkill):
 
 def create_skill():
     """This function is to create the skill"""
-    return GPIO_Shop_Stuff()
+    return GPIOShopStuff()
