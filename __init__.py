@@ -10,10 +10,10 @@ Example:
     Turn Lights off
     Turn Spot on
     Turn Spot off
-    Turn fan on
-    Turn fan off
-    Turn rest on
-    Turn rest off
+    Turn Fan on
+    Turn Fan off
+    Turn Air on
+    Turn Air off
 """
 
 from os.path import dirname, abspath
