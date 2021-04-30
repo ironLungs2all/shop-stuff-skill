@@ -62,7 +62,7 @@ class GPIOShopStuff(MycroftSkill):
         key = self.getSwitchKey(self.switches, gpio)
         status = GPIO.get(gpio)
         name = self.switches[key]['name']
-        self.speak("%s is %s" % (name, status))
+        self.speak("%s %s" % (name, status))
 
     def __init__(self):
         """This is used to initize the GPIO kill
