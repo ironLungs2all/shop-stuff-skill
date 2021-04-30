@@ -44,7 +44,7 @@ class GPIOShopStuff(MycroftSkill):
 
     switches = {
         "LIGHTS": {"gpio":"GPIO1", "dialog":"lightsblink", "name":"lights"},
-        "REST": {"gpio":"GPIO2", "dialog":"restblink", "name":"rest"},
+        "AIR": {"gpio":"GPIO2", "dialog":"airblink", "name":"air"},
         "FAN": {"gpio":"GPIO3", "dialog":"fanblink", "name":"fan"},
         "SPOT": {"gpio":"GPIO4", "dialog":"spotlink", "name":"spot"},
        }
