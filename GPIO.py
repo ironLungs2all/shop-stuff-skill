@@ -80,9 +80,9 @@ def set(key,value):
         for gpio in GPIOS:
             if (key == gpio):
                 if value.upper() == "ON":
-                    GPIO.output(GPIOS[gpio], GPIO.LOW)
+                    GPIO.output(GPIOS[gpio], GPIO.HIGH)
                 else:
-                    GPIO.output(GPIOS[gpio],GPIO.HIGH)
+                    GPIO.output(GPIOS[gpio],GPIO.LOW)
     if key in GPIO_ON:
         GPIO_ON[key](key)
 
